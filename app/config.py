@@ -18,7 +18,4 @@ class Settings(BaseSettings):
     #class Config:
     #    env_file = "app/.env"
 
-
-
 settings = Settings()
-print(settings.database_hostname)
